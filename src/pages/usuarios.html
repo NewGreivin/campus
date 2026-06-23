@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Usuarios</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
+  <body>
+    <aside>
+      <h2>Campus</h2>
+      <ul>
+        <li>
+          <a href="../index.html"><i class="fa-solid fa-house"></i> Inicio</a>
+        </li>
+        <li>
+          <a href="cursos.html"><i class="fa-solid fa-book"></i> Cursos</a>
+        </li>
+        <li>
+          <a href="usuarios.html"><i class="fa-solid fa-users"></i> Usuarios</a>
+        </li>
+        <li>
+          <a href="archivos.html"
+            ><i class="fa-solid fa-folder"></i> Archivos</a
+          >
+        </li>
+        <li>
+          <a href="perfil.html"><i class="fa-solid fa-user"></i> Perfil</a>
+        </li>
+        <li onclick="logout()">
+          <i class="fa-solid fa-right-from-bracket"></i> Cerrar sesión
+        </li>
+      </ul>
+    </aside>
+
+    <main>
+      <h1>Usuarios</h1>
+
+      <table>
+        <tr>
+          <th>Nombre</th>
+          <th>Correo</th>
+          <th>Rol</th>
+        </tr>
+
+        <tr>
+          <td>Juan Pérez</td>
+          <td>juan@campus.com</td>
+          <td>Profesor</td>
+        </tr>
+
+        <tr>
+          <td>María López</td>
+          <td>maria@campus.com</td>
+          <td>Profesor</td>
+        </tr>
+
+        <tr>
+          <td>Carlos Gómez</td>
+          <td>carlos@campus.com</td>
+          <td>Administrador</td>
+        </tr>
+
+        <tr>
+          <td>Pedro Vargas</td>
+          <td>pedro@campus.com</td>
+          <td>Estudiante</td>
+        </tr>
+      </table>
+    </main>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
